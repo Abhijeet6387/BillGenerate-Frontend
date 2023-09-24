@@ -1,0 +1,23 @@
+.home {
+  position: relative;
+  height: 100vh;
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button-group {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.button {
+  flex: 1;
+  margin: 0.5rem;
+  font-weight: bold;
+}
